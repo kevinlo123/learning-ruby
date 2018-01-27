@@ -10,11 +10,11 @@ def calculator(num1, num2)
     numberGreaterThan100 = " was greater than 100."
     is100 = " was 100."    
     if sum < 100
-            print "your num " + sum.to_s + numberLessThan100
-        elsif sum > 100
-            print "your num " + sum.to_s + numberGreaterThan100
-        else 
-            print "your num " + is100
+        print "your num " + sum.to_s + numberLessThan100
+    elsif sum > 100
+        print "your num " + sum.to_s + numberGreaterThan100
+    else 
+        print "your num" + is100
     end
 end
 
