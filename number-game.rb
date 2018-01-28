@@ -18,3 +18,5 @@ def start_game
     end
   end
 end
+
+start_game

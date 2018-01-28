@@ -1,3 +1,7 @@
+=begin
+  creating a rock paper scissors game using the ruby programming language
+=end
+
 def start_rock_paper_scissors
   users_score = 0
   computers_score = 0
@@ -37,3 +41,5 @@ def start_rock_paper_scissors
     end
   end
 end
+
+start_rock_paper_scissors
