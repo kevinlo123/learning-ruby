@@ -8,14 +8,17 @@
 =begin question 2. Arrays: How can you add two arrays together?
     Concatenation is to append one thing to another. For example, concatenating the arrays [1,2,3] and 
     [4,5,6] will give you [1,2,3,4,5,6]. This can be done in a few ways in Ruby.To do this using the concat 
-    method well do. 
+    method well do. To do this another way we can use "+" just like we would on strings and this will make a copy 
+    of the original array.
         
     array_one = [1,2,3]
     array_two = [4,5,6]
     
     array_concatenated = array_one.concat(array_two)
+    output : array_concatenated = [1,2,3,4,5,6] //altering original
 
-    output : array_concatenated = [1,2,3,4,5,6]
+    array_concatenated = array_one + array_two
+    output : array_concatenated = [1,2,3,4,5,6] //copy
 =end
 
 =begin question 3. Arrays: How to get the number of items in an array?
