@@ -31,10 +31,13 @@
 =end
 
 =begin question 4. Arrays: If you have nested arrays what method will turn it into a single, unnested array??
-    To turn a nested array into a single string you can use the .join() method
+    To turn a nested array into a single string you can use the .flatten method
 
-    array_one = [1,2,3]
-    string = array_one.join(",").to_s
+    array_one = [
+        [1,[2],3]
+    ]
 
-    output : string = "1,2,3"
+    array_two = array_one.flatten
+    output : [1, 2, 3];
+
 =end
