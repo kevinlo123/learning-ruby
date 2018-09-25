@@ -9,7 +9,7 @@
     question 2 method.  How do you make arguments optional? 
     Arguments can be made optional by pre-declaring them in the parameter block for example.
     
-    def add_nums(a, b=‘5’)
+    def add_nums(a, b=5)
         a + b
     end
 
